@@ -16,7 +16,7 @@ class App extends React.Component{
      isUpdate:false,
      showModal:'',
      showModal1:'',
-     btnText:'Card'
+     btnText:'Table'
   }
   
  
