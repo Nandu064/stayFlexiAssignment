@@ -40,7 +40,7 @@ function table(props) {
           }
       }
     return (
-        <BootstrapTable rowEvents={rowEvent}  keyField='id' data={paginateData} columns={paginateColumns} pagination={pagination}/>
+        <BootstrapTable rowEvents={rowEvent}  keyField='no' data={paginateData} columns={paginateColumns} pagination={pagination}/>
     )
 }
 
