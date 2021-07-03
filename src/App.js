@@ -72,7 +72,7 @@ class App extends React.Component{
     return(
       <>
             <div className={styles.header}>
-              <h1>Football Player {this.state.btnText}</h1>
+              <h1>Football Players {this.state.btnText}</h1>
               <span className="btn btn-primary"
                 onClick={()=>{
                 (this.state.btnText==="Card")?this.setState({btnText:'Table'}):this.setState({btnText:'Card'})
